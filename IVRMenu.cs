@@ -29,7 +29,7 @@ namespace UCMA_IVR_Demo
            
             _speechSynthesisConnector.Start();
 
-            _speechSynthesizer.Speak("Welcome to Nor-Dove.");
+            _speechSynthesizer.Speak("Welcome to the UCMA IVR Demo!");
             SpeakMenuOptions();
             toneController.ToneReceived += toneController_ToneReceived;
         }
