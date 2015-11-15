@@ -29,7 +29,11 @@ namespace UCMA_IVR_Demo
            
             _speechSynthesisConnector.Start();
 
+<<<<<<< HEAD
             _speechSynthesizer.Speak("Welcome to Nor-Dove.");
+=======
+            _speechSynthesizer.Speak("Welcome to the UCMA IVR Demo!");
+>>>>>>> parent of beaee50... added logging, user auth
             SpeakMenuOptions();
             toneController.ToneReceived += toneController_ToneReceived;
         }
