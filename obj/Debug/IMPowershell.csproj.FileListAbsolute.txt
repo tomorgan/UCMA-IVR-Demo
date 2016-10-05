@@ -1,1 +1,0 @@
-D:\GitHub\UCMA-IVR-Demo\bin\Debug\IMPowershell.exe.config
